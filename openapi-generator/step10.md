@@ -1,0 +1,3 @@
+
+At this point we have created a stubbed out application. You should be able to check in your applicaiton with the single TodoApisController.java source file and if another develoer pulls it down all of the other files needed to run the server will be automatically generated every time before the compile phase of the maven lifecycle. As a bonus assignement you can modify the 'inputSpec' for your openapi-generator-maven-plugin to point back to your local file and see how changes in the OAS effect the code.
+Hopefully this showed how easy it is to go from one of these specification documents to an up and running application

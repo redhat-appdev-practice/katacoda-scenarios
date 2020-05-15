@@ -1,0 +1,23 @@
+{
+    "noindex": true,
+    "icon": "fa-redhat",
+    "title": "Intro to OpenAPI with APIcurio",
+    "description": "Learn to generate OpenAPI specs using APIcurio",
+    "details": {
+        "steps": [
+            {
+                "title": "",
+                "text": "step1.md"
+            }
+        ]
+    },
+    "environment": {
+        "hideintro": true,
+        "hidefinish": true,
+        "uilayout": "iframe"
+    },
+    "backend": {
+        "imageid": "bash",
+        "url": "https://studio.apicur.io/dashboard"
+    }
+}
