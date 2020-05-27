@@ -1,0 +1,50 @@
+{
+	"noindex": true,
+	"icon": "fa-redhat",
+	"title": "Schemathesis",
+	"description": "Introduction to automated testing with Schemathesis",
+	"details": {
+		"steps": [{
+				"title": "",
+				"text": "step1.md",
+				"code": "background.sh"
+			},
+			{
+				"title": "Install",
+				"text": "step2.md"
+			},
+			{
+				"title": "Run the Tests",
+				"text": "step3.md"
+			},
+			{
+				"title": "Fix the Tests",
+				"text": "step4.md"
+			},
+			{
+				"title": "Run More Tests",
+				"text": "step5.md"
+			},
+			{
+				"title": "Custom Testing",
+				"text": "step6.md"
+			}
+		]
+	},
+	"environment": {
+		"hideintro": true,
+		"uieditorpath": "/root/example",
+		"showide": true,
+		"idePort": 23000,
+		"dashboards": [{
+			"name": "Swagger UI",
+			"href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/swagger-ui.html"
+		}],
+
+		"uilayout": "terminal-iframe"
+	},
+	"backend": {
+		"imageid": "ubuntu",
+		"port": 8080
+	}
+}
