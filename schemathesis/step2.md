@@ -10,6 +10,6 @@ of the project follow these steps:
 1. The first thing we're going to do is set up a virtual environment for our python packages:
 `pip install --user virtualenv`{{execute T2}}
 2. Navigate to the lab directory: `cd labs/schemathesis-lab/`{{execute T2}}
-2. Create a new virtual environment in your project folder: `python -m venv myvenv`{{execute T2}}
+2. Create a new virtual environment in your project folder: `virtualvenv myvenv`{{execute T2}}
 3. Activate your new virtual environment: `source myvenv/bin/activate`{{execute T2}}
 4. Install Schemathesis: `pip install schemathesis`{{execute T2}}
