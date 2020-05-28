@@ -36,12 +36,11 @@
 		"uieditorpath": "/root/labs",
 		"showide": true,
 		"idePort": 23000,
-		"dashboards": [{
-			"name": "Swagger UI",
-			"href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/swagger-ui.html"
-		}],
+		"terminals": [
+			 {"name": "Testing", "command": "cd labs/schemathesis-lab", "target": "host01"},
+			]
 
-		"uilayout": "terminal-terminal"
+		"uilayout": "terminal"
 	},
 	"backend": {
 		"imageid": "ubuntu",
