@@ -1,6 +1,6 @@
 1. By default Schemathesis only tests that the response code is less than 500, but there are more options for test cases.  
-   Run `schemthesis run --help`{{execute}} to see more testing options, specifically the `--checks` option.
-2. Rerun the tests using all available checks: `schemathesis run todo.yaml --checks all --base-url http://localhost:8080`{{execute}}
+   Run `schemthesis run --help`{{execute T2}} to see more testing options, specifically the `--checks` option.
+2. Rerun the tests using all available checks: `schemathesis run todo.yaml --checks all --base-url http://localhost:8080`{{execute T2}}
 3. Update the TodosApiController methods to conform to the OAS:
    ```java
    
@@ -25,5 +25,5 @@
     }
     ```{{copy}}
 4. Stop the running Todo API instance with `CTRL + C`
-4. Start the service again to pick up the changes: `mvn spring-boot:run`{{execute}}
-4. Run the tests one final time: `schemathesis run todo.yaml --checks all --base-url http://localhost:8080`{{execute}}
+4. Start the service again to pick up the changes: `mvn spring-boot:run`{{execute T1}}
+4. Run the tests one final time: `schemathesis run todo.yaml --checks all --base-url http://localhost:8080`{{execute T2}
