@@ -1,6 +1,6 @@
 ## Fix the tests
 1. In order to fix the failing tests we need to stub out each of the endpoints that are declared in our OAS
-2. Add the following to the TodosApiController:
+2. Add the following to the src/main/com/redhat/todo/api/TodosApiController:
     ```java
 
     @Override
