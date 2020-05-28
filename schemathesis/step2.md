@@ -7,9 +7,10 @@ of the project follow these steps:
 3. Generate the sources and make sure that the application runs without issue: `mvn spring-boot:run`{{execute T1}}
 
 ### Install Schemathesis
-1. The first thing we're going to do is set up a virtual environment for our python packages:
-`pip install --user virtualenv`{{execute T2}}
+1. Install the setuptools module using pip: `pip3.7 install --user setuptools`{{execute T2}}
+1. The next thing we're going to do is set up a virtual environment for our python packages:
+`pip3.7 install --user virtualenv`{{execute T2}}
 2. Navigate to the lab directory: `cd labs/schemathesis-lab/`{{execute T2}}
-2. Create a new virtual environment in your project folder: `virtualvenv myvenv`{{execute T2}}
+2. Create a new virtual environment in your project folder: `python3.7 -m virtualenv myvenv`{{execute T2}}
 3. Activate your new virtual environment: `source myvenv/bin/activate`{{execute T2}}
 4. Install Schemathesis: `pip install schemathesis`{{execute T2}}
