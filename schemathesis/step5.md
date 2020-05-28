@@ -24,4 +24,6 @@
         return new ResponseEntity<>(HttpStatus.valueOf(202));
     }
     ```{{copy}}
+4. Stop the running Todo API instance with `CTRL + C`
+4. Start the service again to pick up the changes: `mvn spring-boot:run`{{execute}}
 4. Run the tests one final time: `schemathesis run todo.yaml --checks all --base-url http://localhost:8080`{{execute}}
