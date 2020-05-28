@@ -2,7 +2,7 @@
 We'll be using the Todo project that we created at the beginning of the series to test with. If you need a new copy
 of the project follow these steps:
 1. Navigate to the labs directory: `cd labs`{{execute T1}}
-1. Clone the project: `git clone https://github.com/redhat-appdev-practice/schemathesis-lab.git`{{execute T1}
+1. Clone the project: `git clone https://github.com/redhat-appdev-practice/schemathesis-lab.git`{{execute T1}}
 2. Navigate to project directory `cd schemathesis-lab`{{execute}}
 3. Generate the sources and make sure that the application runs without issue: `mvn spring-boot:run`{{execute T1}}
 
