@@ -36,9 +36,6 @@
 		"uieditorpath": "/root/labs",
 		"showide": true,
 		"idePort": 23000,
-		"terminals": [
-			 {"name": "Testing", "command": "cd labs/schemathesis-lab", "target": "host01"}
-			],
 		"uilayout": "terminal"
 	},
 	"backend": {
