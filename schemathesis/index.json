@@ -41,7 +41,7 @@
 			"href": "https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/swagger-ui.html"
 		}],
 
-		"uilayout": "terminal-iframe"
+		"uilayout": "terminal-terminal"
 	},
 	"backend": {
 		"imageid": "ubuntu",
