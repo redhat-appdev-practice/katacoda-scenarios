@@ -1,4 +1,3 @@
-## Intro
 
 ### OpenAPI Generator Templating
 OpenAPI Generator has been designed to allow for the easy extension or even creation of a NEW generator. This lab will take a look at modifying the existing templates for OpenAPI in order to extend the functionality.
