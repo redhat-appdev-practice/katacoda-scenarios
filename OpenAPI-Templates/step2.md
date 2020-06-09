@@ -8,4 +8,4 @@
 
 `cd rhc_openapi_todo`{{execute}}
 
-`openapi_templating_jpa_setup`{{execute}}
+`git checkout openapi_templating_jpa_setup`{{execute}}
