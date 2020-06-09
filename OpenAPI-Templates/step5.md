@@ -23,4 +23,5 @@
           {{/vendorExtensions.x-java-field-annotation}}
         ```{{copy}}
    - Regnerate source and validate our TODO is showing up
+      - `cd ..`{{execute}}
       - `mvn generate-sources`{{execute}}
