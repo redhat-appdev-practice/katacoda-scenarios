@@ -18,9 +18,9 @@
    - Add field annotations
       - Add the following directly above `@JsonProperty("{{baseName}}"){{#withXml}}` (~line 29)
         ```mustache
-          {{#vendorExtensions.x-field-class-annotation}}
+          {{#vendorExtensions.x-java-field-annotation}}
           {{{.}}}
-          {{/vendorExtensions.x-field-class-annotation}}
+          {{/vendorExtensions.x-java-field-annotation}}
         ```{{copy}}
    - Regnerate source and validate our TODO is showing up
       - `mvn generate-sources`{{execute}}
