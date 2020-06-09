@@ -8,7 +8,7 @@
     ```yaml
       x-java-field-annotation:
         - "@javax.persistence.Id"
-        - "@javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY"
+        - "@javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY")
     ```{{copy}}
   - Validate
     - Running the following command will output the model info used by the templates to the OpenAPIModel.json file
