@@ -11,3 +11,7 @@
       `cd templates/`{{execute}}
       
       `wget https://raw.githubusercontent.com/OpenAPITools/openapi-generator/master/modules/openapi-generator/src/main/resources/JavaSpring/pojo.mustache`{{execute}}
+      
+  - Update `pom.xml` to use templates folder:
+       - Add `<templateDirectory>${project.basedir}/templates</templateDirectory>`{{copy}} to the configuration of the `opeanpi-generator-maven-plugin`
+    <sub>Note: be sure to add this to the configuration *NOT* the configOptions</sub>
