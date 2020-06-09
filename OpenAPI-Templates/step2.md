@@ -1,7 +1,6 @@
 ### Setup
 #### Download OpenApi Project:
 
-1. Download OpenAPI Project from github:
 
   - `cd labs`{{execute}}
 
