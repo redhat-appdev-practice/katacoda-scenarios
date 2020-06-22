@@ -16,7 +16,7 @@
        - `^` specifies inverted section. meaning the TODO message will be printed if the `x-java-class-annotation` is empty or non-existing
        - {{{.}}} prints the value of each of the items inside the array. Note the triple bracket was used over the double one. This prevents mustache from attempting to url encoding of the values
    - Add field annotations
-      - Add the following directly above `@JsonProperty("{{baseName}}"){{#withXml}}` (~line 29)
+      - Add the following directly after `{{#vars}}` section (~line 16) ![](https://github.com/redhat-appdev-practice/katacoda-scenarios/blob/master/OpenAPI-Templates/assets/Capture.PNG?raw=true)
         ```mustache
           {{#vendorExtensions.x-java-field-annotation}}
           {{{.}}}
