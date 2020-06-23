@@ -1,4 +1,5 @@
 ## Test a New Behavior
+
 1. To test a new behavior, the first step will be to add the new scenario to our todo.feature file:
 ```gherkin
   Scenario: A Todo can be deleted using it's ID
