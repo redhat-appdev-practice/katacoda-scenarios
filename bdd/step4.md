@@ -6,7 +6,7 @@
     When I delete the todo object with an id of 1
     And I get a todo object with an id of 1
     Then I should get a response of 404
-```
+```{{copy}}
 
 2. Rerun the tests `mvn clean test`
     - we expect this to fail
@@ -43,5 +43,5 @@
         }
 
     }
-```
+```{{copy}}
 4. Run the tests one more time `mvn clean test`
