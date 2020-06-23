@@ -8,7 +8,7 @@
     Then I should get a response of 404
 ```{{copy}}
 
-2. Rerun the tests `mvn clean test`
+2. Rerun the tests `mvn clean test`{{execute}}
     - we expect this to fail
     - the output from the test command will include code snippets to implement missing steps
     
@@ -44,4 +44,4 @@
 
     }
 ```{{copy}}
-4. Run the tests one more time `mvn clean test`
+4. Run the tests one more time `mvn clean test`{{execute}}
