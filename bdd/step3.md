@@ -1,4 +1,4 @@
-## Inspect the tests
+
 
 1. Take a look at our feature file, `src/test/resources/com/redhat/todo/todo.feature`
 ![](https://github.com/redhat-appdev-practice/bdd-lab/blob/main/assets/feature.PNG?raw=true)
