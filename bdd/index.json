@@ -2,7 +2,7 @@
 	"noindex": true,
 	"icon": "fa-redhat",
 	"title": "Behavior Driven Development",
-	"description": "Introduction to automated testing with Schemathesis",
+	"description": "Introduction to Behavior Driven Development(BDD)",
 	"details": {
 		"steps": [{
 				"title": "",
