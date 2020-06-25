@@ -1,7 +1,7 @@
 ## Update `pojo.mustache` to include custom annotations
   - Inorder to use custom properties inside of templates are stored in 'vendorExtensions' and should begin with `x-`. You can read more about that [here](https://swagger.io/docs/specification/openapi-extensions/)
    - Add class annotations
-      - Add the following directly above `@ApiModel` annotation (~line 4)
+      - Replace `{{! TODO: Add x-java-class-annotation template }}` with the following:
         ```mustache
         {{#vendorExtensions.x-java-class-annotation}}
         {{{.}}}
@@ -16,7 +16,7 @@
        - `^` specifies inverted section. meaning the TODO message will be printed if the `x-java-class-annotation` is empty or non-existing
        - {{{.}}} prints the value of each of the items inside the array. Note the triple bracket was used over the double one. This prevents mustache from attempting to url encoding of the values
    - Add field annotations
-      - Add the following directly after `{{#vars}}` section (~line 16) ![](https://github.com/redhat-appdev-practice/katacoda-scenarios/blob/master/OpenAPI-Templates/assets/Capture.PNG?raw=true)
+      - Replace `{{! TODO: Add x-java-field-annotation }}` with the following:
         ```mustache
           {{#vendorExtensions.x-java-field-annotation}}
           {{{.}}}
