@@ -1,0 +1,55 @@
+{
+	"noindex": true,
+	"icon": "fa-redhat",
+	"title": "OWASP Dependency Check",
+	"time": "10 minutes",
+	"difficulty": "Beginner",
+	"description": "Introduction OWASP Dependency Check",
+	"details": {
+		"steps": [{
+				"title": "Setup",
+				"text": "setup.md",
+		    "code":"background.sh"
+			},{
+				"title": "Add Plugin to Maven Project",
+				"text": "step1.md"
+			},
+			{
+				"title": "Run Check and View Dependency Check Report",
+				"text": "step2.md"
+			},
+			{
+				"title": "Fix a vulnerability",
+				"text": "step3.md"
+			},
+			{
+				"title": "Identifying False Positives and Irrelevant Depedencies",
+				"text": "step4.md"
+			},
+			{
+				"title": "Suppressing Report Vulnerability",
+				"text": "step5.md"
+			}
+		],
+		"intro": {
+		  "title": "OWASP Dependency Check",
+		  "text":"intro.md"
+		}, "finish": {
+		  "text": "finish.md"
+		}
+	},
+	"environment": {
+		"uilayout": "terminal",
+		"showide": true,
+		"uieditorpath": "/root/rhc_openapi_todo",
+		"idePort": 23000,
+		"dashboards": [{
+			"name": "Dependency Check Rreport",
+			"href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/dependency-check-report.html"
+		}]
+	},
+	"backend": {
+		"imageid": "ubuntu",
+		"port": 8080
+	}
+}
