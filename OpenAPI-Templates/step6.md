@@ -11,10 +11,10 @@
         - "@javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.IDENTITY)"
     ```{{copy}}
   - Validate
-    - Running the following command will output the model info used by the templates to the OpenAPIModel.json file
+    - Running the following command will output the model info used by the templates
       ```sh
-        ./print-model.sh | grep -Pzo "(?s)############ Model info ############\n(\K\[.*?\} \]\n)" > OpenAPIModel.json
-      ```{{copy}}
+      ./print-model.sh | grep -Pzo "(?s)############ Model info ############\n(\K\[.*?\} \]\n)"  | jq '..|objects|.vendorExtensions//empty'
+      ```{{execute}}
       - Note: In the print-model.sh the `-DdebugModels` is the flag that outputs the model object
     - Search through the file for "@javax.persistence" and validate the custom annotations are inside the vendor extensions at the correct level
     - Note this is the data used when building the files, meaning any existing data here can be used when modifying templates

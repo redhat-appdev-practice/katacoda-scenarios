@@ -1,0 +1,37 @@
+{
+	"noindex": true,
+	"icon": "fa-redhat",
+	"title": "Behavior Driven Development",
+	"description": "Introduction to Behavior Driven Development(BDD)",
+	"details": {
+		"steps": [{
+				"title": "",
+				"text": "step1.md",
+				"code": "background.sh"
+			},
+			{
+				"title": "Setup",
+				"text": "step2.md"
+			},
+			{
+				"title": "Inspect the Tests",
+				"text": "step3.md"
+			},
+			{
+				"title": "Add More Tests",
+				"text": "step4.md"
+			}
+		]
+	},
+	"environment": {
+		"hideintro": true,
+		"uieditorpath": "/root/labs",
+		"showide": true,
+		"idePort": 23000,
+		"uilayout": "terminal"
+	},
+	"backend": {
+		"imageid": "ubuntu",
+		"port": 8080
+	}
+}

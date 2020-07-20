@@ -4,14 +4,7 @@
     - `modules/openapi-generator/src/main/resources/JavaSpring
   - This folder contains all of the template files used to generate the spring code from the previous application. It is worth taking some time to look at some of the different templates
     - Note the `library` folder that contains the 3 different libraries you can set. We chose spring boot when creating our application
-  - Create new `templates` directory in project base. Then download and add the `pojo.mustache` from the JavaSpring templates
+  - The template has already been added to our project: `templates/pojo.mustache
+      
+  - The pom file has also been updated by adding `<templateDirectory>${project.basedir}/templates</templateDirectory>` to the configuration of the `opeanpi-generator-maven-plugin`
     
-      `mkdir templates`{{execute}}
-      
-      `cd templates/`{{execute}}
-      
-      `wget https://raw.githubusercontent.com/OpenAPITools/openapi-generator/master/modules/openapi-generator/src/main/resources/JavaSpring/pojo.mustache`{{execute}}
-      
-  - Update `pom.xml` to use templates folder:
-       - Add `<templateDirectory>${project.basedir}/templates</templateDirectory>`{{copy}} to the configuration of the `opeanpi-generator-maven-plugin`
-    <sub>Note: be sure to add this to the configuration *NOT* the configOptions</sub>
